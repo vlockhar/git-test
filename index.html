@@ -14,17 +14,7 @@
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
         <link rel="stylesheet" href="css/styles.css" />
-        <style>
-            ul {
-              display: block;
-              list-style-type: disc;
-              margin-top: 1em;
-              margin-bottom: 1 em;
-              margin-left: 0;
-              margin-right: 0;
-              padding-left: 40px;
-            }
-            </style>
+        
         <title>NuCamp: A Better Way To Camp</title>
     </head>
 
@@ -73,21 +63,19 @@
                 </div>
             </div>
         </div>
-    </div>
-     
-    <div class="container">
         <div class="row row-content align-items-center">
-            <div class="col-sm-4 col-md-3">
+            <div class="col-sm-4 order-sm-last col-md-3">
                 <h2>Featured Campsites</h2>
             </div>
-            <div class="col">
-                <h3>React Lake Campground</h3>
-        		<p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
+                 <div class="media">
+                    <div class="media-body align-self-center">
+                        <h3>React Lake Campground</h3>
+                        <p class="d-none d-sm-block">Nestled in the foothills of the Chrome Mountains, this campground on the shores of the pristine React Lake is a favorite for fly fishers.</p>
+                    </div>
+                    <img class="d-flex ml-3 img-thumbnail " src="img/react-lake-thumb.jpg" alt="React Lake" />
+                </div>
             </div>
         </div>
-    </div>
-
-    <div class="container">
         <div class="row row-content align-items-center">
             <div class="col-sm-4 order-sm-last col-md-3">
                 <h2 class="text-sm-right">Our Community Partners</h2>
@@ -99,6 +87,35 @@
                         <h3>Bootstrap Outfitters</h3>
         				<p class="d-none d-sm-block">Bootstrap Outfitters supplies you with gear you need at prices you can't beat.</p>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-content"></div>
+        <div class="col-sm-6 mx-auto">
+            <div class="card ">
+                <h3 class="card-header" ></h3>
+                <div class="card-body">
+                    <form id="reserveForm">
+                      <div class="form-group row">
+                          <label for="numCampers" class="col-sm-6 col-form-label">Number of Campers</label>
+                          <div class="col">
+                            <select name="numCampers" id="numCampers">
+                                <option value="volvo">Volvo</option>
+                                <option value="saab">Saab</option>
+                                <option value="mercedes">Mercedes</option>
+                                <option value="audi">Audi</option>
+                              </select>
+                             
+                        
+            </div>
+            <h2 class="text-sm-right">Our Community Partners</h2>
+        </div>
+        <div class="col">
+            <div class="media">
+                <img class="d-flex mr-3 img-thumbnail " src="img/bootstrap-thumb.png" alt="Bootstrap Outfitters">
+                <div class="media-body align-self-center">
+                    <h3>Bootstrap Outfitters</h3>
+                    <p class="d-none d-sm-block">Bootstrap Outfitters supplies you with gear you need at prices you can't beat.</p>
                 </div>
             </div>
         </div>
